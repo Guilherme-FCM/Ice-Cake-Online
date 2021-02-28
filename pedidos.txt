@@ -1,0 +1,36 @@
+------- PEDIDO ------------------------------
+
+Data: 26/4/2020
+
+Hora: 20:11
+
+Entregar em: 210 Sul Alameda 5, Plano Diretor Sul, 4254
+
+Cidade: Palmas-TO
+
+------ DESCRICAO -------------------------------
+
+Sabor do Bolo  |   Quantidade:
+
+G   |     15
+
+Total: R$ 480.0
+
+------- PEDIDO ------------------------------
+
+Data: 26/4/2020
+
+Hora: 20:12
+
+Entregar em: 210 Sul Alameda 5, Plano Diretor Sul, 210 SUl
+
+Cidade: Palmas-TO
+
+------ DESCRICAO -------------------------------
+
+Sabor do Bolo  |   Quantidade:
+
+G   |     32
+
+Total: R$ 1024.0
+
