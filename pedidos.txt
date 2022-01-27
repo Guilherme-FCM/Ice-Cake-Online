@@ -16,3 +16,21 @@ Morango   |     15
 
 Total: R$ 75.0
 
+------- PEDIDO ------------------------------
+
+Data: 27/1/2022
+
+Hora: 16:17
+
+Entregar em: ARSE 24 Alameda 5, Plano Diretor Sul, qq
+
+Cidade: Palmas-TO
+
+---- DESCRICAO ----------------------------
+
+Sabor do Bolo  |   Quantidade:
+
+A   |     2
+
+Total: R$ 20.0
+

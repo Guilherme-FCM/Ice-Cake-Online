@@ -1,7 +1,7 @@
-from classes import IceCreamStand
 from pycep_correios import get_address_from_cep as consultar_cep
 from pycep_correios.exceptions import BaseException
 from datetime import datetime
+from classes.IceCreamStand import IceCreamStand
 
 class IceCakeOnline(IceCreamStand):
     def __init__(self, restaurant_name, cuisine_type, flavors = {}, number_served = 0):

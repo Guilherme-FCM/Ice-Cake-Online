@@ -1,6 +1,5 @@
-from IceCakeOnline import IceCakeOnline
-from Interface import Interface
-from interfaceFunctions import *
+from src.Interface import Interface
+from src.interfaceFunctions import *
 
 interface = Interface({
     'Dados da Empresa': dadosEmpresa,

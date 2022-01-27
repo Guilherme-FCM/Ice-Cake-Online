@@ -61,11 +61,3 @@ class Interface:
         self.__breakMainLoop()
     
     def __breakMainLoop(self): self.__MainFlag = False
-    
-
-# interface = Interface()
-# interface.setMenu({
-#     'Somar': lambda : 2 + 1,
-#     'Subtrair': lambda : 2 - 1
-# }, 'Interface')
-# interface.start()
