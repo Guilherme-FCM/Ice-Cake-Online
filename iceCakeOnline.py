@@ -6,7 +6,6 @@ from datetime import datetime
 class IceCakeOnline(IceCreamStand):
     def __init__(self, restaurant_name, cuisine_type, flavors = {}, number_served = 0):
         super().__init__(restaurant_name, cuisine_type, flavors, number_served)
-        # self.pedidos = {'endereco': {}, 'pedidos': [], 'total': 0}
         self.pedidos = []
         self.statusPedido = ''
         
@@ -56,7 +55,7 @@ class IceCakeOnline(IceCreamStand):
     def decrementarEstoque(self, sabor, num = 1):
         self.flavors[sabor.capitalize()]["estoque"] -= num
         
-    def atenderPedidos(self, statusPedido, pedidoEntregue):    
+    def atenderPedido(self, pedidoEntregue, statusPedido):    
         if pedidoEntregue:
             arquivo = open('pedidos.txt','a')
             data = datetime.now()
@@ -67,7 +66,7 @@ class IceCakeOnline(IceCreamStand):
             arquivo.write(f'\nHora: {data.hour}:{data.minute}\n')
             arquivo.write(f'\nEntregar em: {endereco["logradouro"]}, {endereco["bairro"]}, {endereco["complemento"]}\n')
             arquivo.write(f'\nCidade: {endereco["cidade"]}-{endereco["uf"]}\n')
-            arquivo.write('\n------ DESCRICAO -------------------------------\n')
+            arquivo.write('\n---- DESCRICAO ----------------------------\n')
             arquivo.write('\nSabor do Bolo  |   Quantidade:\n')
             
             for pedido in self.pedidos[0]["pedidos"]: 
