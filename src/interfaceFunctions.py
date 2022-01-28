@@ -1,4 +1,4 @@
-from classes.IceCakeOnline import IceCakeOnline
+from src.classes.IceCakeOnline import IceCakeOnline
 from src.Interface import Interface
 
 cake = None
